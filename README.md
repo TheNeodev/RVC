@@ -115,7 +115,7 @@ https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/rmvpe.pt
 ```
 Then use this command to start Webui:
 ```bash
-python infer-web.py
+python web.py
 ```
 If you are using Windows or macOS, you can download and extract `RVC-beta.7z` to use RVC directly by using `go-web.bat` on windows or `sh ./run.sh` on macOS to start Webui.
 
