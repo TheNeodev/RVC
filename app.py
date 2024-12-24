@@ -74,7 +74,7 @@ else:
     gpu_info = "很遗憾您这没有能用的显卡来支持您训练"
     default_batch_size = 1
 gpus = "-".join([i[0] for i in gpu_infos])
-from infer_pack.models import SynthesizerTrnMs256NSFsid, SynthesizerTrnMs256NSFsid_nono
+from lib.infer_pack.models import SynthesizerTrnMs256NSFsid, SynthesizerTrnMs256NSFsid_nono
 from scipy.io import wavfile
 from fairseq import checkpoint_utils
 import gradio as gr
