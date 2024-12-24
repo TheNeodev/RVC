@@ -82,7 +82,7 @@ import logging
 from vc_infer_pipeline import VC
 config = Config()
 from infer_uvr5 import _audio_pre_
-from my_utils import load_audio
+
 from train.process_ckpt import show_info, change_info, merge, extract_small_model
 
 # from trainset_preprocess_pipeline import PreProcess
